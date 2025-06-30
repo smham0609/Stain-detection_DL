@@ -1,0 +1,16 @@
+# Images and labels direcotry should be relative to train.py
+TRAIN_DIR_IMAGES: 'C:/Users/CAMMSYS/Desktop/fasterrcnn/dataset/train/images'
+TRAIN_DIR_LABELS: 'C:/Users/CAMMSYS/Desktop/fasterrcnn/dataset/train/labels'
+VALID_DIR_IMAGES: 'C:/Users/CAMMSYS/Desktop/fasterrcnn/dataset/val/images'
+VALID_DIR_LABELS: 'C:/Users/CAMMSYS/Desktop/fasterrcnn/dataset/val/labels'
+
+# Class names.
+CLASSES: [
+    '__background__',
+    "stn"
+]
+
+# Number of classes (object classes + 1 for background class in Faster RCNN).
+NC: 2
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True

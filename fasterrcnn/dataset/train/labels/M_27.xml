@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>M_27.jpg</filename>
+	<path>C:\Users\CAMMSYS\Desktop\fasterrcnn\dataset\train\images\M_27.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4128</width>
+		<height>3096</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stn</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3633</xmin>
+			<ymin>2784</ymin>
+			<xmax>4061</xmax>
+			<ymax>3076</ymax>
+		</bndbox>
+	</object>
+</annotation>
