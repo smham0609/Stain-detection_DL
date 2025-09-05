@@ -12,3 +12,7 @@ pip install -r requirements.txt
 	else {
 	AfxMessageBox(_T("Error executing Python script."));
 	}
+
+
+fasterrcnn
+python train.py --model fasterrcnn_resnet50_fpn --epochs 100 --data data_configs/voc.yaml --name resnet50fpn_voc --batch 4
